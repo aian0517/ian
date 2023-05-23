@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新欣相伴</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.47/vue.global.js'
+        integrity='sha512-2zwx0mkoR2cxZY0humPK79YhJYgoX5lT+WNqkgTcV7qhVm3+msjlmOgoXnN1cW2r9qqbZez3XhnLZsyW3k8Wtg=='
+        crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="top"></div>
+    <header class="header">
+        <div class="container-fluid nav__bg">
+            <nav class="container navbar navbar-expand-lg  navbar-dark">
+                <a href="#top"><img src="./images/LOGO.png" class="logo"></a>
+                <h1 class="mb-0 fw" style="color: var(--textcolor);">新欣相伴</h1>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#linkbox">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="linkbox">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#interduce" class="nav-link nav__link">新北農產</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#product" class="nav-link nav__link">產品特色</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#order" class="nav-link nav__link">立即購買</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <section class="container header__section">
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <h1 class="header__title fw">讓更多人看見新北市農產伴手禮</h1>
+                    <div class="header__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./images/地瓜.png" class="w-100"></div>
+                            <div class="swiper-slide"><img src="./images/礦餅.png" class="w-100"></div>
+                            <div class="swiper-slide"><img src="./images/竹筍姐.png" class="w-100"></div>
+                            <div class="swiper-slide"><img src="./images/竹筍弟.png" class="w-100"></div>
+                            <div class="swiper-slide"><img src="./images/芋頭.png" class="w-100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 d-flex justify-content-center align-items-center">
+                    <img src="./images/合照.png" class="w-100">
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="interduce"></div>
+        <section class="container interduce">
+            <h1 class="title my-5" style="padding-top: 100px;">新北農產</h1>
+            <div class="row">
+                <div class="interduce__box col-lg-4 col-sm-12">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex justify-content-center
+                        align-items-center">
+                            <img src="./images/食物樣子插圖/地瓜酥.png" class="d-block" style="width:80%">
+                        </div>
+                        <div class="swiper-slide p-5 ">
+                            <img src="./images/食物代表插圖/地瓜.png" class="w-50">
+                            <h1 class="interduce__tilte">地瓜</h1>
+                            <p>主要生長在北海岸的火山地質、風多、雨多的環境，
+                                盛產期在8月-9月之間，紅皮黃肉，口感細軟、甜度高，
+                                可攝取豐富維生素C、鎂，也可以攝取到鉀，含有豐富類胡蘿蔔素，
+                                主要分布在新北市的金山、萬里、三芝區。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interduce__box col-lg-4 col-sm-12">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex justify-content-center
+                        align-items-center">
+                            <img src="./images/食物樣子插圖/芋頭酥.png" class="d-block" style="width:80%">
+                        </div>
+                        <div class="swiper-slide p-5 ">
+                            <img src="./images/食物代表插圖/芋頭.png" class="w-50">
+                            <h1 class="interduce__tilte">芋頭</h1>
+                            <p>主要生長在金山跳石海岸梯田，
+                                盛產期在9~10月之間，表皮褐色、肉白色，氣味芬香、口感Q彈、鬆軟，
+                                芋頭葉柄含有多量鈣、磷、鐵，可當蔬菜食用
+                                ，也可醃製加工曬乾煮湯或甜點，
+                                主要分布在新北市的金山區。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="interduce__box col-lg-4 col-sm-12">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex justify-content-center
+                        align-items-center">
+                            <img src="./images/食物樣子插圖/竹筍蘇.png" class="d-block" style="width:80%">
+                        </div>
+                        <div class="swiper-slide p-5 ">
+                            <img src="./images/食物代表插圖/竹筍.png" class="w-50">
+                            <h1 class="interduce__tilte">竹筍</h1>
+                            <p>主要生長在土壤肥沃、東北季風吹拂地區，
+                                盛產期在6月-9月之間，筍形彎曲呈羊角狀，口感細嫩甜美、猶如細膩水梨，
+                                低熱量高纖維，可提升飽足感，並有助腸胃蠕動
+                                ，所以很適合減重、便祕的人食用，
+                                主要分布在新北市的八里、三峽、五股、泰山、新店、深坑、平溪、林口區。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="product"></div>
+        <section>
+            <div class="container">
+                <h1 class="title my-5" style="padding-top: 100px;">產品特色</h1>
+                <div class="row product__container">
+                </div>
+            </div>
+        </section>
+        <div id="order"></div>
+        <section class="order container">
+            <h1 class="title my-5" style="padding-top: 100px;">立即訂購</h1>
+            <div class="row order__box">
+                <div class="order__img" onclick="openshop()" data-bs-target="#shop" data-bs-toggle="modal">
+                    <i class="bi bi-cart3 " style="font-size: 60px;"></i>
+                </div>
+                <div class="modal fade" id="shop">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fw" style="color:var(--textcolortwo)">購物清單</h1>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body shop__body">
+                            </div>
+                            <div class="modal-footer justify-content-around">
+                                <h1 class="sum fw colortwo">總計$0</h1>
+                                <button class="btn bgone text" data-bs-dismiss="modal">結帳</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./data.js"></script>
+<script src="./index.js"></script>
+
+</html>

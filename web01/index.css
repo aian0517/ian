@@ -1,0 +1,153 @@
+:root {
+    --colorone: #b12b26;
+    --colortwo: #d26d3d;
+    --textcolor: #f3d3c3;
+    --textcolortwo: #897182;
+}
+
+body {
+    font-family: 微軟正黑體;
+}
+
+.title {
+    font-size: 4.5em;
+    color: var(--textcolortwo);
+    font-weight: bolder;
+}
+
+.fw {
+    font-weight: bold;
+}
+
+.text {
+    color: var(--textcolor);
+}
+
+.colortwo {
+    color: var(--colortwo);
+}
+
+.bgone {
+    background-color: var(--colorone);
+}
+
+.bgtwo {
+    background-color: var(--colortwo);
+}
+
+.header {
+    min-height: 80vh;
+}
+
+.nav__bg {
+    background-color: var(--colorone);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav__link {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--textcolor);
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+    right: 3px;
+    height: 3px;
+    background-color: var(--textcolor);
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: all 500ms;
+}
+
+.nav__link:hover::after {
+    transform: scaleX(1);
+}
+
+.header__section {
+    margin-top: 8%;
+}
+
+.header__title {
+    font-size: 4.5em;
+}
+
+.header__swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header__swiper2 {
+    overflow: hidden;
+    width: 100%;
+}
+
+/* interduce */
+.interduce__box {
+    overflow: hidden;
+}
+
+.interduce__tilte {
+    color: var(--textcolortwo);
+    font-weight: bold;
+}
+/* product */
+.product__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* order */
+.order__img {
+    border-radius: 12px;
+}
+
+.order__btnbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount {
+    margin: 0 50px;
+    font-size: 25px;
+}
+
+.reduce,
+.add {
+    font-size: 25px;
+    color: var(--textcolor);
+    background-color: var(--textcolortwo);
+
+}
+
+.order__img {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.shop__btn {
+    font-size: 10px;
+}
+
+.shop__amount {
+    margin: 0 10px;
+}
